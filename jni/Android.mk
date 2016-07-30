@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_CFLAGS :=
+LOCAL_CFLAGS := -O3
 
 LOCAL_MODULE    := libpng
 LOCAL_SRC_FILES :=\
